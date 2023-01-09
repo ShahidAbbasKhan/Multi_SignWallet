@@ -14,8 +14,8 @@ describe('MultiMultiSignWallet', function () {
         let token;
 
         beforeEach(async () => {
-            const EIP20 = await ethers.getContractFactory("EIP20");
-            token = await EIP20.deploy(initialBalance, 'My Token', 1, 'MT');
+            const Token = await ethers.getContractFactory("Token");
+            token = await Token.deploy();
             await token.deployed();
             await token.transfer(contract.address, initialBalance);
         });
