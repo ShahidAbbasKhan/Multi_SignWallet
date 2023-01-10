@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@nomiclabs/hardhat-etherscan": "^3.1.4",
     "dotenv": "^16.0.3"
   }
 }

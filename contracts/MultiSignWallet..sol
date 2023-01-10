@@ -74,7 +74,7 @@ contract MultiMultiSignWallet {
         return getConfirmationsCount(_Id)>= required;
     }
 
-    receive() external payable{
+    receive() external payable {
         
     }
 
